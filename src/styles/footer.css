@@ -1,0 +1,43 @@
+.foot{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foot-logo{
+    width: 100px;
+}
+.foot-logo img{
+    width: 100%;
+}
+.oneset{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.oneset1{
+    display: flex;
+    align-items: center;
+   gap: 40px;
+}
+.oneset1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.oneset2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: grey;
+}
+.oneset1 .special{
+    border: 1px solid rgb(0, 40, 202);
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 22, 234);
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.profile-pic{
+    width: 70px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile-pic img{
+    width: 100%;
+    border-radius: 100%;
+}
+.pp{
+    background-color: aliceblue;
+    box-shadow: 1px 12px 11px grey;
+    padding: 10px;
+}
+.name{
+        font-size: 20px;
+}
+.occup{
+    color: rgb(95, 95, 95);
+}
+.dis{
+    color: rgb(85, 85, 85);
+}
+.pp:hover{
+    transform: translateY(12px);
+}
+.icon-p{
+    display: flex;
+    gap: 20px;
+    font-size: large;
+}

@@ -1,0 +1,10 @@
+.info1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+.icon-info{
+    font-size: 25px;
+    color: rgb(255, 149, 0);
+}
