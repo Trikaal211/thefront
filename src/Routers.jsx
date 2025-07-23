@@ -9,7 +9,7 @@ import GlobalLayout from './layouts/GlobalLayout'
 
 const Routers = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/thefront">
 
     <Routes>
         <Route path='/' element={<GlobalLayout/>}  >
