@@ -53,7 +53,7 @@ We are a team of creative consultants who help bridge the digital gap between co
    </div>
    <hr className='line2' />
    <div className='profile-wrap'>
-    <Profile img = "/img21.jpg" name='Chary Smith' occupation='SEO at Comoti' dis='I am an ambitious workaholic, but apart from that, pretty simple person.'/>
+    <Profile img={`${import.meta.env.BASE_URL}img21.jpg`} name='Chary Smith' occupation='SEO at Comoti' dis='I am an ambitious workaholic, but apart from that, pretty simple person.'/>
      <Profile img = "/img21.jpg" name='Clara Bertoletti' occupation='Junior Designer' dis='I am an ambitious workaholic, but apart from that, pretty simple person.'/>
       <Profile img = "/img21.jpg" name='Jhon Anderson' occupation='Senior Frontend Developer' dis='I am an ambitious workaholic, but apart from that, pretty simple person.
 '/>
